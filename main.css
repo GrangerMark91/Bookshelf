@@ -1,0 +1,9 @@
+body{
+    background-color: burlywood;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    border: black;
+    display: grid;
+    grid-template-columns: (3,1fr);
+    grid-template-rows: (3,1fr);
+}
