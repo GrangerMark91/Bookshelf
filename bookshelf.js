@@ -9,6 +9,7 @@ class Books{
 
     render(){
     const bookshelf = document.createElement("div");
+    bookshelf.classList.add("book");
 
     const h1 = document.createElement("h1");
     h1.textContent = `Title ${this.title}`;

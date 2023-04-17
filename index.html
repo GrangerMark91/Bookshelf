@@ -8,10 +8,33 @@
     <title>Document</title>
 </head>
 <body>
+    <nav class="nav">
+        <ul><li class="right">Lots books</li></ul>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+    <div id ="bookShelfApp">
+        <div id="userInputArea">
+            <label>Title: </label>
+            <input id="title">
+            <label>Author: </label>
+            <input id="author">
+            <label>Language: </label>
+            <input id="language">
+            <label>Subject: </label>
+            <input id="subject">
+            <button id="userInputButton">Add book</button>
+        </div>
+        <div id="bookList">
+            <h1 id="bookListHeader">List of books</h1>
+        </div>
+    </div>
     <script src="book-data.js"></script>
     <script src="book.js"></script>
     <script src="bookshelf.js"></script> 
     <script src="index.js"></script>
-    </div>
 </body>
 </html>

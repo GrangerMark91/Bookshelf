@@ -18,6 +18,7 @@ class Book{
 
     redner(){
         const bookShelf = document.createElement("div");
+        bookShelf.className = "shelf";
 
         for(const books of this.shelf){
             bookShelf.append(books.render())
